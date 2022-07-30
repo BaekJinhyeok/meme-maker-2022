@@ -9,6 +9,44 @@
   </head>
   <body>
     <canvas></canvas>
+    <input id="line-width" type="range" min="1" max="10" value="5" step="0.5" />
+    <div class="color">
+      <input id="color-choice" type="color" />
+      <div
+        class="color-option"
+        style="background-color: #000000"
+        data-color="#000000"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #ff0000"
+        data-color="#ff0000"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #ffff00"
+        data-color="#ffff00"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #008000"
+        data-color="#008000"
+        +
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #0000ff"
+        data-color="#0000ff"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #800080"
+        data-color="#800080"
+      ></div>
+    </div>
+    <button id="mode-btn">채우기</button>
+    <button id="initialization-btn">초기화</button>
+    <button id="eraser-btn">지우기</button>
     <script src="app.js"></script>
   </body>
 </html>
